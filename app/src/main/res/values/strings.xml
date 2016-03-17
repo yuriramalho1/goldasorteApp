@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gol da Sorte</string>
+    <string name="pagamento_premio">Pagamentos de Prêmios</string>
+    <string name="relatorios">Relatórios</string>
+    <string name="user">Usuário</string>
+    <string name="configuracao">Configurações</string>
+</resources>

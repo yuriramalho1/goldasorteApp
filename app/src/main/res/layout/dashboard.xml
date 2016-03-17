@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/paga_premios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@mipmap/pagar_premios_img"
+            android:onClick="selecionarOpcao"
+            android:text="@string/pagamento_premio"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/relatorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/paga_premios"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawableTop="@mipmap/relatorios_img"
+            android:onClick="selecionarOpcao"
+            android:text="@string/relatorios"
+            android:textColor="#0d0d0d"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/info_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/paga_premios"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp"
+            android:clickable="true"
+            android:drawableTop="@mipmap/usuario_img"
+            android:onClick="selecionarOpcao"
+            android:text="@string/user"
+            android:textColor="#0d0d0d"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/configuracoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/info_usuario"
+            android:layout_alignRight="@id/relatorio"
+            android:clickable="true"
+            android:drawableTop="@mipmap/configuracoes_img"
+            android:onClick="selecionarOpcao"
+            android:text="@string/configuracao"
+            android:textColor="#050505"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
